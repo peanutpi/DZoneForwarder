@@ -10,7 +10,7 @@
 // @require https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
 // ==/UserScript==
 
-var link = $('.link-title > a').attr('href');
+var link = jQuery('.attribution  a:first').attr('href');
 if (link) {
 	window.location.href = link;
 }
